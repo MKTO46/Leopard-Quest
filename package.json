@@ -1,0 +1,11 @@
+{
+  "name": "leopard-quest",
+  "private": true,
+  "version": "1.1.0",
+  "scripts": {
+    "test": "node tests/worker.cjs && node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
